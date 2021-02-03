@@ -1,0 +1,24 @@
+POST  http://h7356j9tk2.execute-api.us-east-1.amazonaws.com/dev/v1/gatti
+
+{
+    "nome": "GattonesNew",
+    "anni": 1
+}
+
+###
+GET https://h7356j9tk2.execute-api.us-east-1.amazonaws.com/dev/v1/gatti
+
+###
+GET  https://h7356j9tk2.execute-api.us-east-1.amazonaws.com/dev/v1/gatti/GattoneNew
+
+
+###
+PUT  https://h7356j9tk2.execute-api.us-east-1.amazonaws.com/dev/v1/gatti/Test
+
+{
+    "anni": 10
+}
+
+###
+DELETE  https://h7356j9tk2.execute-api.us-east-1.amazonaws.com/dev/v1/gatti/Gattone
+
